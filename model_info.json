@@ -1,0 +1,58 @@
+{
+  "features": [
+    "Op_Sma5",
+    "Op_Sma10",
+    "Op_Sma20",
+    "Op_Sma50",
+    "Op_Sma100",
+    "Op_Sma200",
+    "Op_Ema5",
+    "Op_Ema10",
+    "Op_Ema20",
+    "Op_Ema50",
+    "Op_Ema100",
+    "Op_Ema200",
+    "Op_Rsi",
+    "Op_Stoch",
+    "Op_Macd",
+    "Op_Adx",
+    "Op_William",
+    "Op_Cci",
+    "Op_Bbp",
+    "Op_Highlow"
+  ],
+  "feature_names": {
+    "Op_Sma5": "SMA 5",
+    "Op_Sma10": "SMA 10",
+    "Op_Sma20": "SMA 20",
+    "Op_Sma50": "SMA 50",
+    "Op_Sma100": "SMA 100",
+    "Op_Sma200": "SMA 200",
+    "Op_Ema5": "EMA 5",
+    "Op_Ema10": "EMA 10",
+    "Op_Ema20": "EMA 20",
+    "Op_Ema50": "EMA 50",
+    "Op_Ema100": "EMA 100",
+    "Op_Ema200": "EMA 200",
+    "Op_Rsi": "RSI",
+    "Op_Stoch": "Stochastic",
+    "Op_Macd": "MACD",
+    "Op_Adx": "ADX",
+    "Op_William": "Williams %R",
+    "Op_Cci": "CCI",
+    "Op_Bbp": "Bollinger Bands %",
+    "Op_Highlow": "High/Low"
+  },
+  "classes": [
+    "Compra",
+    "Neutral",
+    "Venta"
+  ],
+  "class_colors": {
+    "0": "#10b981",
+    "1": "#f59e0b",
+    "2": "#ef4444"
+  },
+  "model_type": "XGBoost",
+  "scaler_type": "None"
+}
